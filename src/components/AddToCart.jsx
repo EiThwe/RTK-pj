@@ -18,7 +18,7 @@ const AddToCart = () => {
           <hr className="bg-slate-700 h-[2px]" />
           <div className="flex justify-between text-slate-600 p-7">
             <h1 className="text-xl">Total</h1>
-            <p className="text-xl">{totalAmount}</p>
+            <p className="text-xl">{totalAmount.toFixed(2)}</p>
           </div>
         </div>
       ) : (
