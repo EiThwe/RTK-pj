@@ -8,7 +8,7 @@ const Products = () => {
     fetchProducts();
   }, []);
   const fetchProducts = async () => {
-    const { data } = await axios.get("http://localhost:3000/products");
+    const { data } = await axios.get("https://fakestoreapi.com/products");
     setProducts(data);
   };
   return (
