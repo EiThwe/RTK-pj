@@ -6,7 +6,7 @@ import Products from './components/Products'
 
 const App = () => {
   return (
-    <div className='bg-slate-200 p-3'>
+    <div className='bg-slate-200 p-3 min-h-screen'>
       <NavBar/>
       <Routes>
         <Route path="/" element={<Products/>}/>

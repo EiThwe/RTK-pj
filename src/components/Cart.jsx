@@ -11,7 +11,7 @@ const Cart = ({ item }) => {
   const { image, title, price, quantity, totalPrice } = item;
   const dispatch = useDispatch();
   return (
-    <div className="flex justify-between w-[1024px] container mx-auto mt-10 shadow-xl p-5 rounded-md">
+    <div className="flex justify-between max-w-[1024px] container mx-auto mt-10 shadow-xl p-5 rounded-md">
       <div className="flex justify-between gap-5 items-center">
         <img src={image} className="h-24 w-20" alt="" />
         <div>
